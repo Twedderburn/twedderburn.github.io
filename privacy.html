@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentic OS privacy</title>
+<style>
+  :root { --bg: #fbfaf8; --ink: #22201d; --dim: #6b655d; --line: #e4dfd8; --accent: #4f8f88; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1f1b18; --ink: #eee8e1; --dim: #a69d93; --line: #3a332d; --accent: #7fbcb4; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-weight: 400; font-size: 32px; margin: 0 0 8px; }
+  h2 { font-weight: 500; font-size: 19px; margin: 28px 0 4px; }
+  p, li { color: var(--dim); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--dim); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p>Last updated November 8, 2026.</p>
+  <p>Agentic OS is a personal tool used only by its owner, on his own devices.</p>
+
+  <h2>What it accesses</h2>
+  <p>With the owner's permission it reads his Google Tasks (the <code>tasks.readonly</code> scope): task titles, due dates,
+  completion status and list names. It doesn't read task notes, and it can't create, change or delete tasks.</p>
+
+  <h2>How the data is used</h2>
+  <p>The tasks are shown on the owner's own dashboard, on his PC and his phone. Data moves only between those devices,
+  over an encrypted private network.</p>
+
+  <h2>Storage and sharing</h2>
+  <ul>
+    <li>The Google sign-in token stays on the owner's PC.</li>
+    <li>Tasks are held briefly in memory to show them, and the phone keeps its last copy for offline viewing.</li>
+    <li>Nothing is sold, shared with anyone else, or used for advertising.</li>
+    <li>Use of data from Google APIs follows the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+      including its Limited Use requirements.</li>
+  </ul>
+
+  <h2>Removing access</h2>
+  <p>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <footer><a href="./">Agentic OS</a> · <a href="https://github.com/Twedderburn">Contact on GitHub</a></footer>
+</main>
+</body>
+</html>
